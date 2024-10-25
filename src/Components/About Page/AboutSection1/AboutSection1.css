@@ -1,0 +1,37 @@
+.aboutSection1{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    background-color: hsl(210, 12%, 97%);
+    margin: 0px;
+    padding-bottom: 200px;
+}
+.aboutSection1 .details{
+    width: 33%;
+    background-color: white;
+    padding: 15px 20px;
+    height: 400px;
+    margin-top: -150px;
+    z-index: 1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
+.aboutSection1 .details h3{
+    text-align: center;
+    color: black;
+}
+.aboutSection1 .details .divider{
+    display: flex;
+    justify-content: center;
+
+}
+.aboutSection1 .details  .divider img{
+    width: 200px;
+    margin-top: -20px;
+    padding-bottom: 15px;
+}
+.aboutSection1 .details p{
+    text-align: center;
+}

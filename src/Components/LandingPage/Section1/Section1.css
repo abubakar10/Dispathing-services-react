@@ -1,0 +1,217 @@
+.services{
+    padding: 20px 0px;
+}
+.services h1{
+    text-align: center;
+}
+.services .div1-services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.services .div1-services .truck-logo a img{
+    width: 100px;
+    height: 70px;
+     margin-left: 17px; 
+}
+.services .div1-services .truck-logo{
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-right: 30px;
+    padding: 10px 40px;
+}
+.services .div1-services .truck-logo:hover{
+ border: 1px solid blue;
+    border-radius: 20px;
+    margin-right: 30px;
+    padding: 10px 40px;
+}
+.services .div1-services .truck-logo h6{
+    padding-top: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.services .div1-services .truck-logo h6 a{
+    text-decoration: none;
+    color: black;
+}
+.services .div1-services .load-logo a img{
+    width: 90px;
+    height: 70px;
+    margin-left: 5px;
+
+}
+.services .div1-services .load-logo{
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-right: 30px;
+    padding: 10px 50px;
+}
+.services .div1-services .load-logo:hover{
+    border: 1px solid blue;
+       border-radius: 20px;
+       margin-right: 30px;
+       padding: 10px 50px;
+   }
+   .services .div1-services .load-logo h6 {
+    padding-top: 15px;
+    text-align: center;
+    font-weight: bold;
+   }
+   .services .div1-services .load-logo h6 a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+.services .div2-services{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.services .div2-services .carrier-logo a img{
+    width: 100px;
+    height: 70px;
+      margin-left: 8px;  
+}
+.services .div2-services .carrier-logo{
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-right: 30px;
+    padding: 10px 40px;
+    /* padding-left: 30px; */
+}
+.services .div2-services .carrier-logo:hover{
+ border: 1px solid blue;
+    border-radius: 20px;
+    margin-right: 30px;
+    padding: 10px 40px;
+}
+.services .div2-services .carrier-logo h6{
+    padding-top: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+.services .div2-services .carrier-logo h6 a{
+    text-decoration: none;
+    color: black;
+}
+.services .div2-services .billing-logo a img{
+    width: 90px;
+    height: 70px;
+    /* margin-left: 5px; */
+
+}
+.services .div2-services .billing-logo{
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-right: 30px;
+    padding: 10px 50px;
+}
+.services .div2-services .billing-logo:hover{
+    border: 1px solid blue;
+       border-radius: 20px;
+       margin-right: 30px;
+       padding: 10px 50px;
+   }
+   .services .div2-services .billing-logo h6 a{
+    text-decoration: none;
+    color: black; 
+    
+}
+.services .div2-services .billing-logo h6{
+    padding-top: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+.services .div3-services {
+    display: grid;
+    /* justify-content: space-between; */
+     grid-template-columns: repeat(4, 0fr);
+     padding: 30px 0px;
+     justify-content: center;
+     grid-gap: 30px;
+   
+}
+.services .div3-services .tracking{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 20px 30px;
+}
+.services .div3-services .tracking:hover{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px 30px;
+}
+
+.services .div3-services .tracking img{
+    padding-bottom: 10px;
+    width: 100px;
+    height: 70px;
+}
+.services .div3-services .support{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 20px 30px;
+}
+.services .div3-services .support:hover{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px 30px;
+}
+
+.services .div3-services .support img{
+   padding-bottom: 10px;
+    width: 100px;
+    height: 70px;
+}
+.services .div3-services .rate{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 20px 30px;
+}
+.services .div3-services .rate:hover{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px 30px;
+}
+.services .div3-services .rate img{
+   padding-bottom: 10px;
+    width: 100px;
+    height: 70px;
+}
+.services .div3-services .company{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 20px 30px;
+}
+.services .div3-services .company:hover{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px 30px;
+}
+.services .div3-services .company img{
+    padding-bottom: 10px;
+    width: 100px;
+    height: 70px;
+}
+.services .div3-services .tracking h6{
+    text-align: center;
+    font-weight: bold;
+}
+.services .div3-services .support h6{
+    text-align: center;
+    font-weight: bold;
+}
+.services .div3-services .rate h6{
+    text-align: center;
+    font-weight: bold;
+}
+.services .div3-services .company h6{
+    text-align: center;
+    font-weight: bold;
+}

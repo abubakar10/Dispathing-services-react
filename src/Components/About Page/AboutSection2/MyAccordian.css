@@ -1,0 +1,43 @@
+.my-accordian{
+    background-color: hsl(0, 0%, 95%);
+}
+/* .main-heading{
+    
+   
+} */
+.main-heading{
+    background-color: white;
+}
+.main-heading .sub-heading1{
+    display: flex;
+    /* align-items: center; */
+    background-color: white;
+}
+.my-accordian .main-heading .sub-heading1 .question{
+    padding-bottom: 20px;
+    border: none;
+    background-color: white;
+}
+.my-accordian .main-heading .sub-heading1 .question h5{
+    margin: 0px;
+}
+.my-accordian .main-heading .sub-heading1 .signs{
+    padding-bottom: 20px;
+    border: none;
+    margin: 0px;
+    background-color: white;
+}
+.my-accordian .main-heading .sub-heading2 {
+    transition:  0.3s ease-in-out;
+}
+.my-accordian .main-heading .sub-heading2 .answers{
+    /* width: 50%; */
+    /* text-align: center; */
+    background-color: white;
+    margin: 0px;
+    padding-bottom: 20px;
+    padding-left: 7px;
+}
+  
+  
+ 

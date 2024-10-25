@@ -1,0 +1,23 @@
+
+.about-section2{
+     display: flex;
+     justify-content: center;
+     background-color: hsl(210, 12%, 97%);
+     /* margin-top: 100px; */
+}
+.about-section2  .choose-us h2{
+     text-align: center;
+     padding-bottom: 40px;
+     
+}  
+.about-section2 .choose-us{
+     display: flex;
+     justify-content: flex-start;
+     /* align-items: center; */
+     flex-direction: column;
+     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+     background-color: white;
+     width: 50%;
+     padding: 30px;
+     margin-bottom: 100px;
+}

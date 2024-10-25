@@ -1,0 +1,53 @@
+ @font-face {
+    font-family: 'Barlow-extraLight'; /* Choose a name for your font */
+    src: url("./../../../Assets/fonts/BarlowSemiCondensed-ExtraLight.ttf");
+}
+    
+    
+    
+.section5 h3{
+    text-align: center;
+ }
+ .section5 .fancytext-prefix {
+    font-weight: bold;
+  }
+  .typed-cursor {
+    
+    font-weight: bold;
+    color: #1085e4; 
+    animation: blinkCursor 0.7s infinite; 
+  }
+  .fancytext-suffix {
+    font-weight: bold;
+     }
+  @keyframes blinkCursor {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+  .our-mission{
+    display: flex;
+    align-items: center;
+    padding: 20px 40px;
+  }
+  .our-mission .mission-text{
+    width: 50%;
+    text-align: center;
+    
+  }
+  .our-mission .mission-text h5{
+    padding: 0px 20px;
+    font-family: 'Barlow-extraLight';
+    font-weight: 600;
+    line-height: 45px;
+  }
+  .our-mission .mission-img {
+    width: 50%;
+  }
+  .our-mission .mission-img img{
+    width: 100%;
+    
+  }
